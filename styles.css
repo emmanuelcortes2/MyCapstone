@@ -1,9 +1,5 @@
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 700,
-  'GRAD' 200,
-  'opsz' 48
+  color: rgba(39, 42, 49, 1);
 }
 
 body {
@@ -17,12 +13,12 @@ header{
   width: 100%;
   height: 100%;
   margin: 0%;
-  background-color: rgba(229, 232, 232, 1);
+  background-color: rgba(229, 232, 232, 0.5);
   padding: 5%;
 }
 
 .hero {
-  background-color: rgba(229, 232, 232, 1);
+  background-color: rgba(229, 232, 232, 0.5);
   width: 100%;
 }
 
@@ -129,7 +125,99 @@ h4 {
   align-items: center;
   margin: 5% auto;
 }
+.speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 7%;
+}
 
 .speakers > h3 {
   color: black;
+}
+
+.speaker-profile {
+  display: grid; 
+  grid-auto-flow: column; 
+  grid-auto-rows: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 0px 5px; 
+  align-content: stretch; 
+  height: 25%; 
+  font-family: 'Lato', sans-serif;
+  margin: 5%;
+}
+
+#profile-pic {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#profile-info {
+  grid-area: 1 / 2 / 2 / 5;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+#profile-info > h5 {
+  font-size: 24px;
+  margin: 0%;
+}
+
+#profile-info > h6 {
+  font-size: 14px;
+  color:rgba(236, 82, 66, 1);
+  font-style: italic;
+  margin: 2%;
+}
+
+#profile-info > p {
+  font-size: 14px;
+  color: rgba(39, 42, 49, 0.6);
+  font-size: 12px;
+  margin: 2%;
+}
+
+#profile-info > hr {
+  justify-content: left;
+  margin-left: 0%;
+}
+
+.more {
+  background-color: transparent;
+  border: 2px solid rgba(229, 232, 232, 1);
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: rgba(39, 42, 49, 0.8);
+  padding: 3%;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.more-arrow {
+  color: rgba(236, 82, 66, 1);
+}
+
+.sub-hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-hero > h1,
+p {
+  text-align: center;
+}
+
+.contact {
+  color: rgba(39, 42, 49, 0.6);
+  padding: 10%;
+}
+
+.contact > a {
+  color: rgba(39, 42, 49, 0.9);
+  font-weight: bold;
 }
