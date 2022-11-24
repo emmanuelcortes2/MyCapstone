@@ -70,7 +70,6 @@ a:hover {
   .main_logo {
     display: none;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -132,7 +131,6 @@ a:hover {
 h1 {
   font-family: 'Lato', sans-serif;
   color: rgba(236, 82, 66, 1);
-
   font-size: 34px;
   font-weight: 900;
   padding: 5%;
@@ -620,7 +618,7 @@ footer {
   #sponsor {
     display: block;
   }
-  
+
   #end {
     display: grid;
   }

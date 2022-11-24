@@ -1,45 +1,46 @@
-function toggle (){
-    const x = document.getElementById('menu-mobile');
-    if (x.style.display === 'flex') {
-      x.style.display = 'none';
-    } else {
-      x.style.display = 'flex';
-    }
+/* eslint-disable */
+function toggle() {
+  const x = document.getElementById('menu-mobile');
+  if (x.style.display === 'flex') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'flex';
+  }
 }
 
 const data = [
   {
-    photo: './images/user1.jpg', 
+    photo: './images/user1.jpg',
     name: 'Mary Adams',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     description2: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
   },
   {
-    photo: './images/user2.jpg', 
+    photo: './images/user2.jpg',
     name: 'Kyan Bates',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     description2: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
   },
   {
-    photo: './images/user3.jpg', 
+    photo: './images/user3.jpg',
     name: 'Jayden-James Vaughan',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     description2: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
   },
   {
-    photo: './images/user4.jpg', 
+    photo: './images/user4.jpg',
     name: 'Arif Williams',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     description2: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
   },
   {
-    photo: './images/user5.jpg', 
+    photo: './images/user5.jpg',
     name: 'Cavan Fisher',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     description2: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
   },
   {
-    photo: './images/user6.jpg', 
+    photo: './images/user6.jpg',
     name: 'Emily Wormald',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     description2: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
