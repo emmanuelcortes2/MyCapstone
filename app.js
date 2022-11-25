@@ -87,13 +87,6 @@ const y = document.getElementById('show-more3');
 const x = document.getElementById('show-more4');
 const w = document.getElementById('show-more5');
 
-window.onload = function() {
-  if(!window.location.hash) {
-      window.location = window.location + '#loaded';
-      window.location.reload();
-  }
-}
-
 btn.addEventListener('click', () => {
   if (x.style.display === 'grid') {
     x.style.display = 'none';
