@@ -47,72 +47,76 @@ const data = [
   },
 ];
 
-speakers = `
-<div class="speaker-profile">
-<img id="profile-pic" src="${data[0].photo}" alt="">
-<div id="profile-info">
-    <h5>${data[0].name}</h5>
-    <h6>${data[0].description}
-    </h6>
-    <hr width="60px">
-    <p>${data[0].description2}
-    </p>
-</div>
-</div>
-<div class="speaker-profile">
-<img id="profile-pic" src="${data[1].photo}" alt="">
-<div id="profile-info">
-    <h5>${data[1].name}</h5>
-    <h6>${data[1].description}
-    </h6>
-    <hr width="60px">
-    <p>${data[1].description2}
-    </p>
-</div>
-</div>
-<div class="speaker-profile">
-<img id="profile-pic" src="${data[2].photo}" alt="">
-<div id="profile-info">
-    <h5>${data[2].name}</h5>
-    <h6>${data[2].description}
-    </h6>
-    <hr width="60px">
-    <p>${data[1].description2}
-    </p>
-</div>
-</div>
-<div class="speaker-profile">
-<img id="profile-pic" src="${data[3].photo}" alt="">
-<div id="profile-info">
-    <h5>${data[3].name}</h5>
-    <h6>${data[3].description}
-    </h6>
-    <hr width="60px">
-    <p>${data[3].description2}
-    </p>
-</div>
-</div>
-<div class="speaker-profile">
-<img id="profile-pic" src="${data[4].photo}" alt="">
-<div id="profile-info">
-    <h5>${data[4].name}</h5>
-    <h6>${data[4].description}
-    </h6>
-    <hr width="60px">
-    <p>${data[4].description2}
-    </p>
-</div>
-</div>
-<div class="speaker-profile">
-<img id="profile-pic" src="${data[5].photo}" alt="">
-<div id="profile-info">
-    <h5>${data[5].name}</h5>
-    <h6>${data[5].description}
-    </h6>
-    <hr width="60px">
-    <p>${data[5].description2}
-    </p>
-</div>
-</div>`;
+const speakersDiv = document.getElementById('speaker-container');
 
-document.getElementById('speaker-container').innerHTML = speakers;
+for (let i = 0; i <= 1; i += 1) {
+  const speakers = `
+    <div class="speaker-profile">
+      <img id="profile-pic" src="${data[i].photo}" alt="speaker-image">
+      <div id="profile-info">
+        <h5>${data[i].name}</h5>
+        <h6>${data[i].description}
+        </h6>
+        <hr width="60px">
+        <p>${data[i].description2}
+        </p>
+      </div>
+    </div>`;
+  speakersDiv.innerHTML += speakers;
+}
+
+for (let i = 2; i < data.length; i += 1) {
+  const speakersM = `
+    <div class="speaker-profile" id="show-more${i}">
+      <img id="profile-pic" src="${data[i].photo}" alt="speaker-image">
+      <div id="profile-info">
+        <h5>${data[i].name}</h5>
+        <h6>${data[i].description}
+        </h6>
+        <hr width="60px">
+        <p>${data[i].description2}
+        </p>
+      </div>
+    </div>`;
+  speakersDiv.innerHTML += speakersM;
+}
+
+const btn = document.getElementById('more');
+const z = document.getElementById('show-more2');
+const y = document.getElementById('show-more3');
+const x = document.getElementById('show-more4');
+const w = document.getElementById('show-more5');
+
+window.onload = function() {
+  if(!window.location.hash) {
+      window.location = window.location + '#loaded';
+      window.location.reload();
+  }
+}
+
+btn.addEventListener('click', () => {
+  if (x.style.display === 'grid') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'grid';
+  }
+
+  if (y.style.display === 'grid') {
+    y.style.display = 'none';
+  } else {
+    y.style.display = 'grid';
+  }
+
+  if (w.style.display === 'grid') {
+    w.style.display = 'none';
+  } else {
+    w.style.display = 'grid';
+  }
+
+  if (z.style.display === 'grid') {
+    z.style.display = 'none';
+  } else {
+    z.style.display = 'grid';
+  }
+
+});

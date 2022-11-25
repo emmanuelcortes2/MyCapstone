@@ -89,13 +89,13 @@ a:hover {
 
   .social-list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
     font-family: 'Lato', sans-serif;
     gap: 2%;
     background-color: rgba(39, 42, 49, 1);
-    width: 97.5%;
+    padding-right: 10%;
     height: 35px;
     margin: 0%;
   }
@@ -349,6 +349,22 @@ h4 {
   color: rgba(236, 82, 66, 1);
   font-style: italic;
   margin: 2%;
+}
+
+#show-more2 {
+  display: none;
+}
+
+#show-more3 {
+  display: none;
+}
+
+#show-more4 {
+  display: none;
+}
+
+#show-more5 {
+  display: none;
 }
 
 .background > p {
@@ -620,6 +636,22 @@ footer {
   }
 
   #end {
+    display: grid;
+  }
+
+  #show-more2 {
+    display: grid;
+  }
+
+  #show-more3 {
+    display: grid;
+  }
+
+  #show-more4 {
+    display: grid;
+  }
+
+  #show-more5 {
     display: grid;
   }
 }

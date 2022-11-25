@@ -30,90 +30,65 @@
 
 # 📖 [First Capstone] <a name="about-project"></a>
 
-> Conference/Real Estate Web Site
 
-> This is the First capstone of Microverse Bootcamp. This coding capstone belogs to the first module 'The portal'.
 
-**[My Capstone]** is a...
+**My Capstone** is a:
+
+- Conference/Real Estate Web Site
+
+- This is the First capstone of Microverse Bootcamp. This coding capstone belogs to the first module 'The portal'.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Html, Css & JavaScript
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- Html, Css & JavaScript
 
 ### Key Features <a name="key-features"></a>
 
-- **[Adaptable menus for multiple pages]**
-- **[Mobile & desktop responsiveness]**
-- **[Dynamic speakers section trough the `More` button at the bottom of home section in mobile version]**
+- **Adaptable menus for multiple pages**
+- **Mobile & desktop responsiveness**
+- **Dynamic speakers section trough the `More` button at the bottom of home section in mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> To see the live version of this repository please click on Live Demo Link or copy and paste this url https://emmanuelcortes2.github.io/ in your browser. Thank you!
+- To see the live version of this repository please click on Live Demo Link or copy and paste this url https://emmanuelcortes2.github.io/ in your browser. Thank you!
 
 - [Live Demo Link](https://emmanuelcortes2.github.io/)
+
+## Project presentation video
+
+Watch video presentation [Here](https://www.loom.com/share/bde28592cc514ef9a81a9c1fdcb45408)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
->Step 1: If you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
-
->Step 2: Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine.
-
-`git clone <your project link>`
-
->Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
-
->Step 3: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
-
 ### Prerequisites
 
 In order to run this project you need:
 
-> VsCode or Atom installed locally in yor Mac or PC.
+- VsCode or Atom installed locally in yor Mac or PC.
 
 ### Setup
 
->Step 1: If you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+To get a local copy up and running, follow these steps.
 
->Step 2: Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine.
+`Step 1`: If you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+
+`Step 2`: Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine.
 
 `git clone <your project link>`
 
->Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
+- Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
->Step 3: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
-
+`Step 3`: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Author
 
 👤 **Emmanuel Cortés**
 
@@ -126,7 +101,7 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[I'd like to add further informations & interactions to make the page more user frinedly]**
+- [ ] **I'd like to add further informations & interactions to make the page more user frinedly**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +128,7 @@ I would like to thank Cindy Shin as the designer of this template
 
 `Designer`
 
--Behance: [@Adagio07](https://www.behance.net/adagio07)
+- Behance: [@Adagio07](https://www.behance.net/adagio07)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
